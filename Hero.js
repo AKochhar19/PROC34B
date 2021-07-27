@@ -4,7 +4,7 @@ class Hero {
 		var options = { 
 			density: 1, 
 			frictionAir: 1,
-			isStatic: false
+			isStatic: true
 		};
 		this.x=x;
 		this.y=y;
