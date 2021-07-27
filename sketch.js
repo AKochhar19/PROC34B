@@ -85,7 +85,9 @@ function draw() {
   hero.display();
  // rope.display();
   monster.display();
-
+if(box.body == monster.body){
+Matter.Body.setStatic(monster.body,false);
+}
   
 }
 
